@@ -24,14 +24,14 @@ namespace Disaheim
 
         }
 
-        public Book(string itemID) : this(itemID, "Ikke angivet", 0)
+        public Book(string itemID) : this(itemID, "", 0)
         {
 
         }
 
         public override string ToString()
         {
-            return base.ToString();
+            return $"ItemId: {ItemID}, Title: {Title}, Price: {Price}";
         }
     }
 }
