@@ -20,12 +20,12 @@ namespace Disaheim
             Quality = quality;
         }
 
-        public Amulet(string itemID, Level quality) : this(itemID, quality, "Ikke angivet")
+        public Amulet(string itemID, Level quality) : this(itemID, quality, "")
         {
 
         }
 
-        public Amulet(string itemID) : this(itemID, Level.low, "Ikke angivet")
+        public Amulet(string itemID) : this(itemID, Level.medium, "")
         {
 
         }
