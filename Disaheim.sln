@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disaheim", "Disaheim\Disahe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisaheimTest", "DisaheimTest\DisaheimTest.csproj", "{37F7FB5C-EA66-466B-B1E3-CB9DE4A84482}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusProjectSafe", "BonusProjectSafe\BonusProjectSafe.csproj", "{5860B7BD-B4F2-42E0-95F2-5761E417B48F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{37F7FB5C-EA66-466B-B1E3-CB9DE4A84482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37F7FB5C-EA66-466B-B1E3-CB9DE4A84482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37F7FB5C-EA66-466B-B1E3-CB9DE4A84482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5860B7BD-B4F2-42E0-95F2-5761E417B48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5860B7BD-B4F2-42E0-95F2-5761E417B48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5860B7BD-B4F2-42E0-95F2-5761E417B48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5860B7BD-B4F2-42E0-95F2-5761E417B48F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
