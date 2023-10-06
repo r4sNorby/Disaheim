@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    internal class Book
+    public class Book
     {
         public string ItemID { get; set; }
         public string Title { get; set; }

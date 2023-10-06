@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    internal enum Level
+    public enum Level
     {
         low,
         medium,

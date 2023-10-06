@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Disaheim
 {
-    internal class Amulet
+    public class Amulet
     {
         public string ItemID { get; set; }
         public string Design { get; set; }
