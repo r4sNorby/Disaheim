@@ -11,17 +11,13 @@ namespace UtilityLib
 
         public double GetValueOfAmulet(Amulet amulet)
         {
-            switch (amulet.Quality)
+            return amulet.Quality switch
             {
-                case Level.low:
-                    return 12.5;
-                case Level.medium:
-                    return 20.0;
-                case Level.high:
-                    return 27.5;
-                default:
-                    return 0;
-            }
+                Level.low => 12.5,
+                Level.medium => 20.0,
+                Level.high => 27.5,
+                _ => 0,
+            };
         }
 
         public double GetValueOfCourse(Course course)
