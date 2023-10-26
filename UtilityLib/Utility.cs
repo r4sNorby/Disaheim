@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Disaheim;
 
-namespace Disaheim
+namespace UtilityLib
 {
     public class Utility
     {
@@ -26,6 +22,12 @@ namespace Disaheim
                 default:
                     return 0;
             }
+        }
+
+        public double GetValueOfCourse(Course course)
+        {
+            int hours = (int)Math.Ceiling(course.DurationInMinutes / 60.00);
+            return 875.00 * hours;
         }
     }
 }

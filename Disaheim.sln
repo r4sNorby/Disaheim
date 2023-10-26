@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disaheim", "Disaheim\Disaheim.csproj", "{452832BC-3314-4BCA-A916-EEC7CDCFFD99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disaheim", "Disaheim\Disaheim.csproj", "{452832BC-3314-4BCA-A916-EEC7CDCFFD99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisaheimTest", "DisaheimTest\DisaheimTest.csproj", "{37F7FB5C-EA66-466B-B1E3-CB9DE4A84482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisaheimTest", "DisaheimTest\DisaheimTest.csproj", "{37F7FB5C-EA66-466B-B1E3-CB9DE4A84482}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusProjectSafe", "BonusProjectSafe\BonusProjectSafe.csproj", "{5860B7BD-B4F2-42E0-95F2-5761E417B48F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BonusProjectSafe", "BonusProjectSafe\BonusProjectSafe.csproj", "{5860B7BD-B4F2-42E0-95F2-5761E417B48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityLib", "UtilityLib\UtilityLib.csproj", "{6BCF9D01-2147-42ED-AD20-4BEA8A17B528}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5860B7BD-B4F2-42E0-95F2-5761E417B48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5860B7BD-B4F2-42E0-95F2-5761E417B48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5860B7BD-B4F2-42E0-95F2-5761E417B48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BCF9D01-2147-42ED-AD20-4BEA8A17B528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCF9D01-2147-42ED-AD20-4BEA8A17B528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCF9D01-2147-42ED-AD20-4BEA8A17B528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCF9D01-2147-42ED-AD20-4BEA8A17B528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
