@@ -2,8 +2,9 @@
 
 namespace Disaheim
 {
-    public class Course
+    public class Course : IValuable
     {
+        public static double CourseHourValue = 875.0;
         public string Name { get; set; }
         public int DurationInMinutes { get; set; }
 
@@ -20,7 +21,13 @@ namespace Disaheim
 
         public override string ToString()
         {
-            return $"Name: {Name}, Duration in Minutes: {DurationInMinutes}";
+            return $"Name: {Name}, Duration in Minutes: {DurationInMinutes}, Value: {GetValue()}";
+        }
+
+        public double GetValue()
+        {
+            int hours = (int)Math.Ceiling(DurationInMinutes / 60.00);
+            return CourseHourValue * hours;
         }
     }
 }

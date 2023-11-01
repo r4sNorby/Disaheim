@@ -32,5 +32,10 @@ namespace Disaheim
         {
             return $"ItemId: {ItemID}, Title: {Title}, Price: {Price}";
         }
+
+        public override double GetValue()
+        { 
+            return Price; 
+        }
     }
 }
