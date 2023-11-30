@@ -18,7 +18,6 @@ namespace Disaheim
         public IValuable GetValuable(string id)
         {
             IValuable found = null;
-            //return valuables.Find(i => i.ItemID == id);
             foreach (var valuable in valuables)
             {
                 if (valuable is Amulet)
